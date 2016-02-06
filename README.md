@@ -8,7 +8,7 @@ AnnaMarie Garlin ([agarlin18@berkeley.edu](mailto:agarlin18@berkeley.edu))
 
 ## Demo Video
 
-See Crunch Time! (https://link_to_your_video)
+See Crunch Time! (https://www.youtube.com/watch?v=DBiTWwK8084)
 
 ## Screenshots
 
