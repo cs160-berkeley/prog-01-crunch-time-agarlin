@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.annamarie.cs160proj1.MainActivity"
+    tools:showIn="@layout/activity_main"
+
+    android:clickable="true">
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="100dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:choiceMode="none"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:spinnerMode="dialog"
+
+        android:clickable="true"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+    <!--android:entries="@array/exercises"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Crunch Time"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calories Burned:"
+        android:id="@+id/textView3"
+        android:textColor="#6f21cf"
+        android:textStyle="bold"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/gobutton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/textView4"
+        android:textColor="#6f21cf"
+        android:textSize="50dp"
+
+        android:textStyle="bold"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/min"
+        android:visibility="visible"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_alignRight="@+id/gobutton" />
+
+    <!--android:layout_alignTop="@+id/editText4"-->
+        <!--android:layout_toLeftOf="@+id/textView6"-->
+        <!--android:layout_toStartOf="@+id/textView6" />-->
+
+    <Button
+        android:layout_width="1000dp"
+        android:layout_height="30dp"
+        android:text="GO!"
+        android:id="@+id/gobutton"
+        android:background="#7d36d4"
+        android:textColor="#ffffff"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Reps"
+        android:id="@+id/reps"
+        android:textColor="#9257db"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/min"
+        android:layout_alignStart="@+id/min"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp" />
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Large Text"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_above="@+id/gridView"-->
+        <!--android:layout_alignRight="@+id/gridView"-->
+        <!--android:layout_alignEnd="@+id/gridView"-->
+        <!--android:layout_marginRight="284dp"-->
+        <!--android:layout_marginEnd="284dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:textColor="@android:color/white"/>-->
+
+
+</RelativeLayout>
