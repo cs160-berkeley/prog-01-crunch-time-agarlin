@@ -12,7 +12,9 @@ See Crunch Time! (https://link_to_your_video)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/pic1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/pic1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/pic1.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
